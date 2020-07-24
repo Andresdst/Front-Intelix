@@ -1,0 +1,27 @@
+body {
+  font-family: "Muli", sans-serif;
+  margin: 0px;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__titulo {
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.header__menu {
+  margin-right: 30px;
+}
+.header__menu ul {
+  display: flex;
+}
+.header__menu ul li {
+  list-style: none;
+  padding-left: 30px;
+}
+.header__menu ul li a {
+  text-decoration: none;
+}

@@ -1,26 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <div class="header__titulo">
-        <h2>Intelix.biz</h2>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="images/x-icon" href="./img/icons/favicon.ico">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+ <!--CSS Boostrap  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- CSS main -->
+  <link rel="stylesheet" href="style.css">
+  <title>Intelix.biz</title>
+</head>
+<body>
+  <header class="fixed-top d-flex align-item-center">
+
+    <div class="container d-flex align-item-center">
+      <div class="logo mr-auto">
+        <!-- colocar questrial, prompt de google fonts -->
+        <h1 class="text-light"><a href="./index.html"><span>Intelix Synergy</span></a></h1>
       </div>
 
-      <div class="header__menu">
-        <ul class="header__menu.lista">
-          <li><a href="#header" class="active">Inicio</a></li>
-          <li><a href="#acerca">Acerca de mi</a></li>
-          <li><a href="#projects">Servicios</a></li>
-          <li><a id="blog" href="#">Blog</a></li>
-          <li><a href="#footer">Contacto</a></li>
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+
+    <section id="hero" class="hero d-flex align-items-center">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h5>We Add</h5>
+            <h1>Value to our Client</h1>
+            <h5>adapting technology to the objectives of your organization.</h5>
+            <div>
+              <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            </div>
+          </div>
+  
+          <div class="col-lg-6 order-1 order-lg-2 hero-img">
+            <img src="./img/logo_intelix_sin_sombra.png" style="height: 580px;" class="img-fluid animated" alt="">
+          </div>
+        </div>
       </div>
-    </header>
-  </body>
+  
+    </section>
+  
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>We offer products and services in the following areas</p>
+        </div>
+      </div>
+  
+      
+      <div class="row">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box">
+            <div class="icon"><img src="./img/icons/Home_0013_Icono_consultoria.png" alt=""></div>
+            <h4 class="title"><a href="">Consulting</a></h4>
+            <p class="description">Information Technology Consulting, specialized in optimizing the processes of the different functions and Business Areas of your organization</p>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box">
+            <div class="icon"><img src="./img/icons/Home_0014_Icono_SI.png" alt=""></div>
+            <h4 class="title"><a href="">Solutions</a></h4>
+            <p class="description">Develop and implement IT intelligent solutions, aligned with your organization’s objectives designed to drive it to its explicit goals</p>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box">
+            <div class="icon"><img src="./img/icons/Home_0015_Icono_operaciones.png" alt=""></div>
+            <h4 class="title"><a href="">Operation and Support</a></h4>
+            <p class="description">Operation Continuity services for the IT Infrastructure and Applications that support your organization</p>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box">
+            <div class="icon"><img src="./img/icons/Home_0017_Icono_procura.png" alt=""></div>
+            <h4 class="title"><a href="">Procure</a></h4>
+            <p class="description">Recommend, negotiate and manage, the acquisition of IT products and services</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="clients" class="clients">
+      <div class="container">
+        <div class="section-title">
+          <h2>Clients</h2>
+          <p>Some of our clients from different sectors</p>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h5>Some of our clients from different sectors that</h5>
+          <h1>TRUST US</h1>
+          <ul>
+            <li><h5>Logistics</h5></li>
+            <li><h5>Finance</h5></li>
+            <li><h5>Manufacture</h5></li>
+            <li><h5>el resto</h5></li>
+
+          </ul>
+        </div>
+
+        <div class="col-lg-6 order-1 order-lg-2">
+          <div class="row">
+
+            <div class="col">
+              <div class="box">
+                <div class=""><img src="./img/clients/cliente1.jpg" alt=""></div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="box">
+                <div class=""><img src="./img/clients/cliente2.jpg" alt=""></div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="box">
+                <div class=""><img src="./img/clients/cliente3.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+
+            <div class="col">
+              <div class="box">
+                <div class=""><img src="./img/clients/cliente4.jpg" alt=""></div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="box">
+                <div class=""><img src="./img/clients/cliente5.jpg" alt=""></div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="box">
+                <div class=""><img src="./img/clients/cliente6.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col">
+              <div class="box">
+                <div class=""><img src="./img/clients/cliente7.jpg" alt=""></div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="box">
+                <div class=""><img src="./img/clients/cliente8.jpg" alt=""></div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="box">
+                <div class=""><img src="./img/clients/cliente9.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col">
+              <div class="box">
+                <div class=""><img src="./img/clients/cliente13.jpg" alt=""></div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="box">
+                <div class=""><img src="./img/clients/cliente11.jpg" alt=""></div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="box">
+                <div class=""><img src="./img/clients/cliente12.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+    </section>
+
+
+    <section id="allies" class="allies">
+      <div class="container">
+          <div class="section-title">
+            <h2>Commercial Alies</h2>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-4 col-6">
+            <img src="img/allies/aliado1-removebg-preview.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-6">
+            <img src="img/allies/aliado2-removebg-preview.png" class="img-fluid" alt="" >
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-6">
+            <img src="img/allies/aliado3-removebg-preview.png" class="img-fluid" alt="">
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-6 order-1 order-lg-1">
+          <div class="">
+            <img src="./img/undraw_hire_te5y.svg" class="img-fluid animated" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-2 d-flex flex-column justify-content-center">
+          <h6>If you are a committed, creative and innovative</h6>
+          <h6>professional, passionate about Information Technology...</h6>
+          <h3>Join our team!</h5>
+          <div>
+            <a href="#about" class="btn-get-started scrollto">Apply Here</a>
+          </div>
+        </div>
+
+    </section><!-- End Join US Section -->
+  </main>
+
+</body>
 </html>
